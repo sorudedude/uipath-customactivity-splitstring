@@ -28,7 +28,7 @@ namespace StringFunctions
         public InArgument<string> Input { get; set; }
 
         [Category("Input")]
-        [DisplayName("Separators (If Custom)")]
+        [DisplayName("Separators (If Chosen Custom)")]
         public InArgument<string[]> CustomSplitter { get; set; }
 
         [Category("Output")]
